@@ -9,31 +9,19 @@
 ## структура репозитория
 
 │   deploy.sh
-
 │   README.md
-
 │
-
 ├───Ansible
-
 │       1_deploy_k8s_cluster.yml
-
 │       inventory.ini
-
 │       join_workers.yml
-
 │
-
 └───terraform
-
     │   .terraform.lock.hcl
-   
-    │   main.tf
     
-    │   outputs.tf
-    
-    │   terraform.tfstate
-    
+    │   main.tf  
+    │   outputs.tf    
+    │   terraform.tfstate    
     │   terraform.tfstate.backup
     │   terraform.tfvars
     │   variables.tf
