@@ -72,10 +72,15 @@ terraform init
 Создайте файл terraform.tfvars и заполните его вашими значениями:
 
 yandex_token    = ""
+
 cloud_id        = ""
+
 folder_id       = ""
+
 ssh_public_key_path = ""
+
 user_name       = ""
+
 sudo_password   = ""
 
 Запуск Terraform для создания инфраструктуры
