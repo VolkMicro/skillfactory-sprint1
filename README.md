@@ -10,10 +10,12 @@
 
 │   deploy.sh
 │   README.md
-│
+
 ├───Ansible
+
 │       1_deploy_k8s_cluster.yml
 │       inventory.ini
+
 │       join_workers.yml
 │
 └───terraform
